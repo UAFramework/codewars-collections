@@ -1,0 +1,13 @@
+{
+  "name": "cyf-codewars-collections",
+  "version": "1.0.0",
+  "description": "https://www.codewars.com/collections?q=cyf&created_by=everyone&order_by=name%20asc",
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
