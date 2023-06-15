@@ -1,19 +1,19 @@
-function logicalCalc(array, operator) {
-  if (operator === "AND") {
+function logicalCalc(array, op) {
+  if (op === "AND") {
     for (let i = 0; i < array.length; i++) {
       if (!array[i]) {
         return false;
       }
     }
     return true;
-  } else if (operator === "OR") {
+  } else if (op === "OR") {
     for (let i = 0; i < array.length; i++) {
       if (array[i]) {
         return true;
       }
     }
     return false;
-  } else if (operator === "XOR") {
+  } else if (op === "XOR") {
     let count = 0;
     for (let i = 0; i < array.length; i++) {
       if (array[i]) {
