@@ -4,7 +4,12 @@
  */
 
 function isString(s) {
-
+  if (s === s.toString()) {
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
 const chai = require('chai');
