@@ -1,4 +1,5 @@
 # CYF collections at Codewar
+
 Check [this](https://www.codewars.com/collections?q=cyf&created_by=everyone&order_by=name%20asc) link for the full list of collections.
 
 ## Setting up your code editor
@@ -23,14 +24,12 @@ There are some tools that will help you to write code. One of these, [Prettier](
 - Search for `terminal.integrated.shellArgs` for your OS
 - Set value to `Git Bash` from the available drop down
 
-
 ## Running the code/tests
 
 - Once you have cloned the repository, run `npm install` in the terminal to install any necessary dependencies for running tests in JS.
 - To run only the tests for the a particular collection, run `npm run test -- ./cyf-js-1-week-3/*.js`
 - To run a single test file (for example `cyf-js-1-week-3/1-Is-String.js`), \
-run `npm test -- ./cyf-js-1-week-3/1-Is-String.js`
+  run `npm test -- ./cyf-js-1-week-3/1-Is-String.js`
 
 For more information about tests, look here:
 [CYF Syllabus / Guides / Intro To Tests](https://syllabus.codeyourfuture.io/guides/intro-to-tests)
-
