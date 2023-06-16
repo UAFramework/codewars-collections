@@ -1,17 +1,15 @@
-///function digitalRoot(n) {
-//  let ns = n.toString();
-//  let i = 0;
-//  let digRoot = 0;
-///  while (i < ns.length) {  
- //   digRoot += digRoot + ns.charAt(i);
-//    i++;
-//  }
-//  return digRoot;
-//}
-
 function digitalRoot(n) {
-  return (n - 1) % 9 + 1;
+ let ns = n.toString();
+ let i = 0;
+  let digRoot = 0;
+  while (i < ns.length) {  
+  digRoot += digRoot + ns.charAt(i);
+   i++;
+ }
+  return digRoot;
 }
+
+
 
 
 const chai = require("chai");
