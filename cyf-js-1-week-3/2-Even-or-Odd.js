@@ -1,16 +1,19 @@
 /**
- * Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+ * Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers. ok
  */
 
 function evenOrOdd(number) {
-
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
 }
 
-const chai = require('chai');
+const chai = require("chai");
 const assert = chai.assert;
 
-describe("Sample tests",() => {
-  
+describe("Sample tests", () => {
   it("2 is even", () => {
     assert.strictEqual(evenOrOdd(2), "Even");
   });
