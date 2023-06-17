@@ -1,0 +1,1 @@
+https://www.codewars.com/collections/cyf-js-2-week-1
