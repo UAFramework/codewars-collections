@@ -4,10 +4,7 @@
  */
 
 function isString(s) {
-  if(typeof s === 'string'){
-    return true;
-  }
-  return false;
+  return (typeof s === 'string');
 }
 
 const chai = require('chai');
