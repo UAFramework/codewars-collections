@@ -3,14 +3,17 @@
  */
 
 function evenOrOdd(number) {
-
+  if (number % 2 === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
 }
 
-const chai = require('chai');
+const chai = require("chai");
 const assert = chai.assert;
 
-describe("Sample tests",() => {
-  
+describe("Sample tests", () => {
   it("2 is even", () => {
     assert.strictEqual(evenOrOdd(2), "Even");
   });
