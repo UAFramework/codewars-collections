@@ -38,9 +38,12 @@ For more information about tests, look here:
 
 For your homework, we'll be using [**Test Driven Development**](https://medium.com/@adityaalifnugraha/test-driven-development-tdd-in-a-nutshell-b9e05dfe8adb) to check your answers. Test driven development (or TDD) is the practice of writing tests for your code first, and then write your code to pass those tests. This is a very useful way of writing good quality code and is used in a lot of industries. You don't have to worry about knowing how this works, but if you're curious, engage with a volunteer to find out more! :)
 
-1. Complete the challenges in each file and save it once you're happy with your changes
-2. Run the testing script (see instructions above) to check the results against the tests - all tests should be PASSED if you completed the challenges correctly. If a test shows FAILED, find the associated test to identify which function failed and fix it.
-3. Raise a PR once you're happy with the quality of your code. 
-Create a separate PR for ueach subfolder, e.i. if you completed `cyf-js-1-week-3` this should be reflected in its own separate PR.
-4. Make shure you create a separate commit for each file in the PR.
+1. Fork from this repo.
+2. In your own repo create a new branch for each `cyf-js-?-week-?` sub-folder.  
+3. For each js file complete the challenge save it once you're happy with your solution. \
+Then run testing script (see instructions above) to check the results against the tests - all tests should be PASSED if you completed the challenges correctly. 
+If a test shows FAILED, find the associated test to identify which function failed and fix it.
+4. Commit each file separately. At least one commit for a single file.
+5. Once you're happy with the quality of your code raise a PR from your branch in your fork to the original repo which you forked. 
+So, for task with `cyf-js-1-week-3` you supposed to have a branch: `feature/cyf-js-1-week-3` with at least 12 commits.
 
