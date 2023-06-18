@@ -14,7 +14,7 @@
  * The second value in the first pair in the array is 0, since the bus is empty in the first bus stop.
  */
 function countPeople(busStops) {
-
+  return busStops.map(x => x.reduce((a,b) => a - b)).reduce((a, b) => a + b);
 }
 
 const Test = require('@codewars/test-compat');

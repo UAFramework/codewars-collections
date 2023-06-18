@@ -12,7 +12,8 @@
  */
 
 function reduceNumber(n) {
-
+  let val = [...n.toString()].map(x => +x).reduce((a,b)=>a+b);
+  return n.toString().length > 1 ? reduceNumber(val) : n;
 }
 
 const Test = require('@codewars/test-compat');

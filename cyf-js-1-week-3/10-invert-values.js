@@ -7,7 +7,7 @@
  * invertArray([]) == []
  */
 function invertArray(array) {
-
+   return array.map(x => -x);
 }
 
 const Test = require('@codewars/test-compat');

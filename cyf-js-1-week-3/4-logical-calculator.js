@@ -20,7 +20,12 @@
  */
 
 function logicalCalc(array, op){
-
+    var operators = {
+        AND: '&&',
+        OR: '||',
+        XOR: '^',
+    };
+    return Boolean(eval(array.join(operators[op])));
 }
 
 const Test = require('@codewars/test-compat');
