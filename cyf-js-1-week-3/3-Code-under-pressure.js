@@ -7,6 +7,6 @@ const Test = require('@codewars/test-compat');
 
 describe("Tests", () => {
   it("test", () => {
-Test.assertEquals(doubleInteger(2), 4);
+    Test.assertEquals(doubleInteger(2), 4);
   });
 });

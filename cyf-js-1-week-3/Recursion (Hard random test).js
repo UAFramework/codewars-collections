@@ -21,3 +21,6 @@ describe("Tests", () => {
     assert.strictEqual( digitalRoot(456), 6 )
   });
 });
+
+
+

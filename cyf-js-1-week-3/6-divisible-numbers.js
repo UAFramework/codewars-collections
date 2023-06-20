@@ -5,7 +5,6 @@ function divisibleBy(numbers, divisor){
   }
   return divArray;
 }
-
 describe("Sample tests", function() {
   it("should pass sample tests", function() {
     Test.assertDeepEquals(divisibleBy([1,2,3,4,5,6], 2), [2,4,6]);

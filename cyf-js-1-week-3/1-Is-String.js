@@ -12,21 +12,20 @@ function isString(s) {
   }
 }
 
-const chai = require('chai');
-const assert = chai.assert;
+const Test = require('@codewars/test-compat');
 
 describe("test isString()", () => {
-  
+
   it("should return false for 5", () => {
-    assert.strictEqual(isString(5), false);
+    Test.assertEquals(isString(5), false);
   });
-  
+
   it("should return true for '5'", () => {
-    assert.strictEqual(isString("5"), true);
-  }); 
+    Test.assertEquals(isString("5"), true);
+  });
 
   it("should return true for 'abc'", () => {
-    assert.strictEqual(isString("abc"), true);
-  });    
-  
+    Test.assertEquals(isString("abc"), true);
+  });
+
 });
