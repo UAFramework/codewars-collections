@@ -4,7 +4,7 @@
  * and returns a string of s repeated exactly n times.
  */
 function repeatStr (n, s) {
-
+  return Array(n).fill(s).join('');
 }
 
 const Test = require('@codewars/test-compat');

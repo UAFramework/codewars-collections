@@ -4,7 +4,7 @@
  */
 
 function isString(s) {
-
+  return typeof s === 'string';
 }
 
 const Test = require('@codewars/test-compat');

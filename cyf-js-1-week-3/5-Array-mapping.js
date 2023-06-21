@@ -4,7 +4,7 @@
  */
 
 function doubleWithMap(array) {
-
+  return array.map(x => x * 2);
 }
 
 const Test = require('@codewars/test-compat');

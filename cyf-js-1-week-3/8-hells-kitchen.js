@@ -10,8 +10,8 @@
  * Any letter 'a' or 'A' should become '@', Any other vowel should become '*'.
  *
  */
-function gordon(a) {
-
+function gordon(a){
+    return a.replace(/\w+/g, '$&!!!!').replace(/[aeiou]/g, v => v == 'a' ? '@' : '*').toUpperCase();
 }
 
 const Test = require('@codewars/test-compat');
