@@ -1,18 +1,25 @@
-/**
- * https://www.codewars.com/kata/57a0e5c372292dd76d000d7e
- * Write a function that accepts an integer n and a string s as parameters,
- * and returns a string of s repeated exactly n times.
- */
 function repeatStr (n, s) {
-
+  let string = '';
+  let string2 = '';
+  for (let i = 0; i < n; i++) {
+    string += string2.concat(s);
+    string2 = '';
+  }
+  return string;
 }
 
-const Test = require('@codewars/test-compat');
+const chai = require("chai");
+const assert = chai.assert;
+chai.config.truncateThreshold=0;
 
 describe("Tests", function() {
   it ("Basic tests", function() {
-    Test.assertEquals(repeatStr(3, "*"), "***");
-    Test.assertEquals(repeatStr(5, "#"), "#####");
-    Test.assertEquals(repeatStr(2, "ha "), "ha ha ");
+    assert.strictEqual(repeatStr(3, "*"), "***");
+    assert.strictEqual(repeatStr(5, "#"), "#####");
+    assert.strictEqual(repeatStr(2, "ha "), "ha ha ");
   });
 });
+
+
+
+//Much easier to do with string.repeat(n);

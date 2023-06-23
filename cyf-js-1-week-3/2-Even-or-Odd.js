@@ -4,7 +4,7 @@
  */
 
 function evenOrOdd(number) {
-
+  return number % 2 ? "Odd" : "Even";
 }
 
 const Test = require('@codewars/test-compat');
